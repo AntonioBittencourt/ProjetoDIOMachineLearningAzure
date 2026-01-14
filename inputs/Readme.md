@@ -10,7 +10,12 @@ Foram feitas análises de Machine Learning na plataforma Azure. Duas estratégia
 
 Na primeira figura temos exemplos gerados por IA contendo temperaturas diversas e dados de vendas de sorvete.
 
+![Tabela Gerada por IA](imagens/DadosIA.jpg)
+
 Em primeira análise vamos testar a implementação feita por um pipeline no designer. Ele está descrito na figura abaixo.
+
+![Implementação do Pipeline](imagens/Representacao%20do%20Pipeline)
+
 
 
 Os resultados estão na tabela abaixo, vemos que chegamos a uma arpoximação muito boa da previsão por meio da regressão com os resultados tabelados. As maiores discrepâncias se encontram para os valores muito altos ou muito baixos de temperatura ou venda de sorvetes.
