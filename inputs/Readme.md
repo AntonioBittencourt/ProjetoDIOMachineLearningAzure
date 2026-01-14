@@ -20,9 +20,9 @@ Em primeira análise vamos testar a implementação feita por um pipeline no des
 
 Os resultados estão na tabela abaixo, vemos que chegamos a uma arpoximação muito boa da previsão por meio da regressão com os resultados tabelados. As maiores discrepâncias se encontram para os valores muito altos ou muito baixos de temperatura ou venda de sorvetes.
 
-![Resultados do Pipeline Parte 1](imagens/ResultadosPipeline)
-![Resultados do Pipeline Parte 2](imagens/ResultadosPipeline2)
-![Resultados do Pipeline Parte 3](imagens/ResultadosPipeline3)
+![Resultados do Pipeline Parte 1](imagens/ResultadosPipeline.jpg)
+![Resultados do Pipeline Parte 2](imagens/ResultadosPipeline2.jpg)
+![Resultados do Pipeline Parte 3](imagens/ResultadosPipeline3.jpg)
 
 
 E os valores de erro se encontram represntados abaixo.
