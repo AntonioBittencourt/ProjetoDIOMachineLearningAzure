@@ -1,14 +1,22 @@
 # Introdução
-É proposto o seguinte desafio na plataforma DIO:
-Imagine que você é proprietário de uma sorveteria chamada Gelato Mágico, localizada em uma cidade litorânea. Você percebe que a quantidade de sorvetes vendidos diariamente tem uma forte correlação com a temperatura ambiente. No entanto, sem um planejamento adequado, você pode acabar produzindo mais sorvetes do que o necessário e ter prejuízos com desperdícios ou, ao contrário, produzir menos e perder vendas.
-
-Para solucionar esse problema, você decide usar Machine Learning para prever quantos sorvetes serão vendidos com base na temperatura. Com esse modelo, será possível antecipar a demanda e planejar a produção de maneira eficiente.
+Agora extendemos o machine learning do desafio proposto na plataforma DIO para um exemplo mais complicado. Vamos analisar a poluição de um lago ao longo do tempo. As variáveis estudadas que interferem nessa poluição são.
+- data e mes (época do ano),
+- Posições x e y,
+- profundidade em metros,
+- temperatura da água em graus célsius,
+- velocidade da corrente em mps,
+- direção da corrente em graus,
+- precipitacao em mm,
+- pH da água,
+- oxigenio dissolvido em mgL e
+- intensidade do despejo
+Para por fim calcularmos a poluição em mgL.
 
 # Implementação
 
-Foram feitas análises de Machine Learning na plataforma Azure. Duas estratégias foram usadas a AutoML que funciona mais como uma "caixa preta", nele são permitidas o uso de diversas estratégias simultâneas como, por exemplo, KNN, árvores de decisão, random forest entre outras. Porém para garantir agilidade do processo foi usado apenas o método XGBoostRegressor.
+Novamente Ffram feitas análises de Machine Learning na plataforma Azure. Duas estratégias foram usadas a AutoML que funciona mais como uma "caixa preta", nele são permitidas o uso de diversas estratégias simultâneas como, por exemplo, KNN, árvores de decisão, random forest entre outras. Porém para garantir agilidade do processo foi usado apenas o método XGBoostRegressor.
 
-Na primeira figura temos exemplos gerados por IA contendo temperaturas diversas e dados de vendas de sorvete.
+Na primeira figura temos exemplo gerado por IA de todas as variáveis analisadas
 
 ![Tabela Gerada por IA](imagens/DadosIA.jpg)
 
