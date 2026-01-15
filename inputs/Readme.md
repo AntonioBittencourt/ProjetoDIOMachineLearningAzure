@@ -31,7 +31,7 @@ E os valores de erro se encontram represntados abaixo.
 Com isso o dono da sorveteria pode nos casos de maior discrepância prever uma maior margem de erro nos extremos dos dados. Podendo nesse caso produzir mais sorvetes que o previsto por precaução ou manter o número atual, analisando se é preferível deixar de vender sorvetes para não haver desperdício ou garantir a venda, havendo o risco de que esses desperdícios ocorram.
 Em AutoML foram obtidas também previsões de alta qualidade, inclusive melhores que no designer na técnica que performou melhor, VotingEnsemble, com correlação de spearman de 0,98441 e erro absoluto de média 2,0149. Demais dados estão presentes na figura abaixo.
 ![Métodos de maior desempenho](imagens/MetodosMaiorDesempenho.jpg)
-![Méricas do AUtoML](imagens/MetodosMetricasAutoML.jpg)
+![Méricas do AutoML](imagens/MetodosMetricasAutoML.jpg)
 
 
 # Conclusão
