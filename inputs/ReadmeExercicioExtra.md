@@ -37,10 +37,10 @@ E os valores de erro se encontram represntados abaixo.
 ![Desempenho do Pipeline](imagens/DesempenhoPipelineExtra.jpg)
 
 
-Em AutoML foram obtidas também previsões de alta qualidade. A técnica que performou melhor foi novamente VotingEnsemble, com correlação de spearman de 0,884454, menor do que no exe . Demais dados estão presentes na figura abaixo.
+Em AutoML foram obtidas também previsões de alta qualidade, novamente melhores que as do pipeline. A técnica que performou melhor foi novamente VotingEnsemble, com correlação de spearman de 0,884454, menor do que no exemplo anterior por conta da maior dificuldade de estabelecer regressões, havendo nesse caso múltiplas variáveis que afetam a saída . Demais dados estão presentes na figura abaixo.
 ![Métodos de maior desempenho](imagens/MetodosMaiorDesempenhoExtra.jpg)
-![Méricas do AUtoML](imagens/MetodosMetricasAutoMLExtra.jpg)
+![Méricas do AutoML](imagens/MetodosMetricasAutoMLExtra.jpg)
 
 
 # Conclusão
-Foram testadas duas abordagens, a AutoML que pode ser usada por qualquer um mesmo sem grandes conhecimentos de Machine Learning, pois funciona como uma "caixa preta" e um pipeline descrito no designer que permite maior configuração e controle sobre o que está sendo feito. Com o AutoML foi obtido resultados melhores, o que mostra a robustez e a qualidade dessa solução, porém um melhor design no pipeline pode vir a alterar esse resultado.
+Foram testadas duas abordagens, a AutoML que pode ser usada por qualquer um mesmo sem grandes conhecimentos de Machine Learning, pois funciona como uma "caixa preta" e um pipeline descrito no designer que permite maior configuração e controle sobre o que está sendo feito. Com o AutoML foi obtido resultados melhores, o que mostra a robustez e a qualidade dessa solução, porém um melhor design no pipeline pode vir a alterar esse resultado. Ao complicarmos o experimento observamos uma queda na aproximação porém esta ainda é bastante precisa.
