@@ -14,19 +14,19 @@ Para por fim calcularmos a poluição em mgL.
 
 # Implementação
 
-Novamente Ffram feitas análises de Machine Learning na plataforma Azure. Duas estratégias foram usadas a AutoML que funciona mais como uma "caixa preta", nele são permitidas o uso de diversas estratégias simultâneas como, por exemplo, KNN, árvores de decisão, random forest entre outras. Porém para garantir agilidade do processo foi usado apenas o método XGBoostRegressor.
+Novamente, foram feitas análises de Machine Learning na plataforma Azure. Duas estratégias foram usadas a AutoML que funciona mais como uma "caixa preta", nele são permitidas o uso de diversas estratégias simultâneas como, por exemplo, KNN, árvores de decisão, random forest entre outras. Porém para garantir agilidade do processo foi usado apenas o método XGBoostRegressor.
 
 Na primeira figura temos exemplo gerado por IA de todas as variáveis analisadas
 
 ![Tabela Gerada por IA](imagens/DadosIA.jpg)
 
-Em primeira análise vamos testar a implementação feita por um pipeline no designer. Ele está descrito na figura abaixo.
+Em primeira análise vamos testar a implementação feita por um pipeline no designer. Ele é o mesmo do exercício anterior e está descrito na figura abaixo.
 
 ![Implementação do Pipeline](imagens/RepresentacaodoPipeline.jpg)
 
 
 
-Os resultados estão na tabela abaixo, vemos que chegamos a uma arpoximação muito boa da previsão por meio da regressão com os resultados tabelados. As maiores discrepâncias se encontram para os valores muito altos ou muito baixos de temperatura ou venda de sorvetes.
+Os resultados estão na tabela abaixo, vemos que novamente chegamos a uma arpoximação muito boa da previsão por meio da regressão com os resultados tabelados mesmo agora analisando múltiplas variáveis.
 
 ![Resultados do Pipeline Parte 1](imagens/ResultadosPipeline.jpg)
 ![Resultados do Pipeline Parte 2](imagens/ResultadosPipeline2.jpg)
