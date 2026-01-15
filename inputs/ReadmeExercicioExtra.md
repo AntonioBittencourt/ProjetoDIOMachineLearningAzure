@@ -1,4 +1,4 @@
-# Introdução
+t# Introdução
 Agora extendemos o machine learning do desafio proposto na plataforma DIO para um exemplo mais complicado. Vamos analisar a poluição de um lago ao longo do tempo. As variáveis estudadas que interferem nessa poluição são.
 - data e mes (época do ano),
 - Posições x e y,
@@ -18,28 +18,28 @@ Novamente, foram feitas análises de Machine Learning na plataforma Azure. Duas 
 
 Na primeira figura temos exemplo gerado por IA de todas as variáveis analisadas
 
-![Tabela Gerada por IA](imagens/DadosIA.jpg)
+![Tabela Gerada por IA](imagens/DadosIAExtra.jpg)
 
 Em primeira análise vamos testar a implementação feita por um pipeline no designer. Ele é o mesmo do exercício anterior e está descrito na figura abaixo.
 
-![Implementação do Pipeline](imagens/RepresentacaodoPipeline.jpg)
+![Implementação do Pipeline](imagens/RepresentacaodoPipelineExtra.jpg)
 
 
 
 Os resultados estão na tabela abaixo, vemos que novamente chegamos a uma arpoximação muito boa da previsão por meio da regressão com os resultados tabelados mesmo agora analisando múltiplas variáveis.
 
-![Resultados do Pipeline Parte 1](imagens/ResultadosPipeline.jpg)
-![Resultados do Pipeline Parte 2](imagens/ResultadosPipeline2.jpg)
-![Resultados do Pipeline Parte 3](imagens/ResultadosPipeline3.jpg)
+![Resultados do Pipeline Parte 1](imagens/ResultadosPipelineExtra.jpg)
+![Resultados do Pipeline Parte 2](imagens/ResultadosPipeline2Extra.jpg)
+![Resultados do Pipeline Parte 3](imagens/ResultadosPipeline3Extra.jpg)
 
 
 E os valores de erro se encontram represntados abaixo.
-![Desempenho do Pipeline](imagens/DesempenhoPipeline.jpg)
+![Desempenho do Pipeline](imagens/DesempenhoPipelineExtra.jpg)
 
 
 Em AutoML foram obtidas também previsões de alta qualidade. A técnica que performou melhor foi novamente VotingEnsemble, com correlação de spearman de 0,884454, menor do que no exe . Demais dados estão presentes na figura abaixo.
-![Métodos de maior desempenho](imagens/MetodosMaiorDesempenho.jpg)
-![Méricas do AUtoML](imagens/MetodosMetricasAutoML.jpg)
+![Métodos de maior desempenho](imagens/MetodosMaiorDesempenhoExtra.jpg)
+![Méricas do AUtoML](imagens/MetodosMetricasAutoMLExtra.jpg)
 
 
 # Conclusão
